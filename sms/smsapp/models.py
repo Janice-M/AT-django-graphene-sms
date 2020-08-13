@@ -15,7 +15,7 @@ africastalking.initialize(username, apikey)
 africastalking.initialize(username, apikey)
 
 class Sms(models.Model):
-recipients = ['YOUR_PHONE_NUMBER_GOES_HERE']
+phonenumber = ['YOUR_PHONE_NUMBER_GOES_HERE']
 message = 'I\'m a lumberjack and its ok, I sleep all night and I work all day'
 sender = 'SHORTCODE_OR_SENDERID
 
